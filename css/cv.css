@@ -11,7 +11,10 @@ body {
 }
 .cadreCV {
     padding-bottom: 15px;
+    margin-left : 5px;
+    margin-right : 5px;
     background: white;
+    margin-top : 15px;
 }
 /****************************************
 * En-tête du CV
@@ -264,7 +267,7 @@ body {
     font-size: 1.3em;
 }
 #competences .container .classement {
-    background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat;
+    background: scroll transparent url(../images/Red-Rating-Stars.png) no-repeat;
     width: 160px;
     height: 27px;
 }
@@ -285,4 +288,8 @@ body {
 }
 #competences .container .classement5 {
     background-position: 0 0px;
+}
+
+#passions .fond {
+    background-color: black;
 }
